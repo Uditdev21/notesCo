@@ -17,7 +17,7 @@ class DatabaseService {
   }
 
   Future<DatabaseService> init() async {
-    await database; // Ensures database is initialized
+    await database;
     return this;
   }
 
@@ -67,7 +67,7 @@ class DatabaseService {
   }
 
 
-  // Get one
+
   Future<NotesModel?> getNote(int id) async {
     final db = await database;
     final res = await db.query('notes', where: 'id = ?', whereArgs: [id]);
@@ -85,7 +85,7 @@ class DatabaseService {
     return result.map((e) => NotesModel.fromMap(e)).toList();
   }
 
-  // Update
+
   Future<int> updateNote(NotesModel note) async {
     final db = await database;
     return await db.update(
@@ -96,7 +96,7 @@ class DatabaseService {
     );
   }
 
-  // Delete
+
   Future<int> deleteNote(int id) async {
     final db = await database;
     return await db.delete('notes', where: 'id = ?', whereArgs: [id]);

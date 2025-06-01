@@ -48,7 +48,7 @@ Make sure you have the **Flutter SDK** installed on your machine. For installati
 
 ## 📱 Screen Recording(Features demonstration)
 
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://drive.google.com/file/d/1uBg8o50AzHE5EOiLbNLaORE8RAK73yEU/view)
+[![Watch Demo](https://i.imgur.com/abc1234.jpg)](https://drive.google.com/file/d/1uBg8o50AzHE5EOiLbNLaORE8RAK73yEU/view)
 
 ## 🤝 Contributing
 
